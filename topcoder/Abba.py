@@ -30,9 +30,6 @@ class Abba:
 
     return "Impossible"
 
-  def compute_length(self, startIdx, endIdx, direction):
-    return direction * (startIdx - endIdx) + 1
-
   def are_equal(self, initial, target, startIdx, direction):
     length = len(initial)
     iTarget = startIdx
